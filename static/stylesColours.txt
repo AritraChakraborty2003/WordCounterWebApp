@@ -1,0 +1,15 @@
+Colour and fonts
+
+colour code  banner text :- #FF4D27
+
+Button Color :- #2961B2
+
+Grey:- #A7B0BD
+
+Black- #121212
+
+
+blue Navy:- #1875D2
+
+White - #FFFFFF
+

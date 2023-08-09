@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter App</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav-bar">
+            <div class="icon-bar navComp navCompIcon">
+                    <div class="icon-image internalNavCompImg bannerIcon">
+                        <div class="icon-holder">
+                        <img src="static/newicon.png" alt="banner-icon" class="bannerImgIcon">
+                        </div>
+                    </div>
+                    <div class="icon-text internalNavCompImg bannerText">
+                        <p class="brandNameText">Pen Pals</p>
+                    </div>
+            </div>
+
+            <div class="joiner-part navComp navCompJoiner">
+
+            </div>
+
+            <div class="options-bar navComp navCompOptions">
+                    <div class="product-option internalNavCompOpt"><p class="navOptText"><a href="#bannerArea" class="navlinkOpt" style="color: #FF4D27;text-decoration:none">Product</a>
+                    </p></div>
+                    <div class="description-option internalNavCompOpt"><p class="navOptText"><a href="#descrArea" class="navlinkOpt" style="color: #FF4D27;text-decoration:none">Description</a>
+                    </p></div>
+                    <div class="About-option internalNavCompOpt"><p class="navOptText"><a href="https://innovate-with-code.co.in" class="navlinkOpt" target="_blank" style="color: #FF4D27; text-decoration:none">About</a>
+                    </p></div>
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <div class="banner" id="banner">
+        <div class="banner-image">
+            <img src="static/newBanner1.jpeg" alt="ImageCounter">
+        </div>
+        <div class="banner-heading" id="bannerArea">
+            <p class="bannerTextHead">Word Counter Tool
+            </p>
+            </div>
+        <div class="bannerSupportText">
+            <p class="support-text">(Your Ultimate assistant to calculate no. of Words and Characters)</p>
+        </div>
+
+        <div class="work-area">
+           
+            <textarea class="largeScreenArea" id="largeScreenInput" name= "inputText" cols="130" rows="15" placeholder="Enter Text here..."></textarea>
+        
+            <textarea class="smallScreenArea" id="smallScreenInput" name= "inputText" cols="80" rows="15" placeholder="Enter Text here..."></textarea>
+         
+        </div>
+        <div class="button-holder">
+            <button class="SubmitBtn" id="submitBtn">Submit</button>
+        </div>
+    </div>
+ 
+    <div class="outputManager" id="outputManager">
+    <div class="output-heading">
+        <p class="outputHeadingText">Results</p>
+    </div>
+    <div class="output-area" id="output-area">
+       
+        <div class="output-box">
+              <div class="word-box internalOutputBox">
+                <div class="WordResHeading">
+                    <div class="headingTextWord"><p class="insideHeadingWord">Words</p></div>
+                    
+                </div>
+
+                <div class="wordResDiv"><p class="wordResText" id="resWords">59</p></div>
+              </div>
+                  
+              <div class="joinerPartOutput internalOutputBox">
+            </div>
+              <div class="char-box internalOutputBox">
+                <div class="CharResHeading">
+                    <div class="headingTextWord"><p class="insideCharHeading">Characters</p></div>
+                </div>
+                <div class="charResDiv"><p class="charResText" id="resChars">157</p></div>
+                </div>
+            </div>
+             
+        </div>
+        <div class="button-holder">
+            <button class="SubmitBtn" id="resBtn">Revert Back</button>
+        </div>
+        </div>
+    
+    
+    <div class="description-area" id="descrArea">
+        <div class="description-heading">
+            <p class="descrText">Description</p>
+        </div>
+        <div class="description-body">
+            <ul class="QuestionHolder">
+                <li><p class="questionBunchText">Q.1 What is the use of Word Counter?</p></li>
+                <li><p class="answerBunchText">Ans - Word counter Helps us judge and depeict no. of words in our written text
+                    <br>For any error please pardon us and feel free to mail at aritra.chakraborty203@gmail.com
+                </p></li>
+              
+                <li><p class="questionBunchText">Q.2 In Which Tech this product made?</p></li>
+                <li><p class="answerBunchText">Ans - This is made with HTML,CSS and Vanilla JS </p></li>
+                <li><p class="questionBunchText">Q.3 Where to use and why?</p></li>
+                <li><p class="answerBunchText">Ans - It is used to check constraints for writing paragraph and text material needed.It helps
+                    <br>to enhance professional writing.We take utmost care of the accuracy of product and have<br>
+                    a very clear picture in mind how it is made and how greater the accuracy is.
+                </p></li>
+            </ul>
+        </div>
+    </div>
+
+
+        <div class="footer">
+            <div class="footerTextBox">
+                <p class="footerText">@innovate-with-code 2023</p>
+            </div>
+            <div class="linkBox">
+                <ul class="links">
+                    <li><a href="https://github.com/AritraChakraborty2003/WordCounterWebApp" target="_blank"><img src="static/githubicon.png" alt="github" color="white"></li></a>
+                    <li><a href="https://innovate-with-code.co.in" target="_blank"><img src="static/webicon.png" alt="website" color="white"></li></a>
+                    <li><a href="https://www.linkedin.com/in/aritra-chakraborty-396604217/" target="_blank"><img src="static/linkediniconnew.png" alt="linkedin" color="white"></li></a>
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

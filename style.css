@@ -1,0 +1,416 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* Navigation Bar CSS */
+.header{
+     height: 15vmin;
+     /*border:1px solid black;*/
+}
+.nav-bar{
+    height: 7vmin;
+    margin-top: 10px ;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 1.5px;
+  /*  border:1px solid black;*/
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.75fr 0.3fr 1fr;
+}
+
+.navCompIcon{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.3fr 1fr;
+    
+
+}
+
+.bannerText{
+    display: flex;
+    align-items: center;
+}
+.navCompOptions{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+@media (max-width: 1079px) {
+    .internalNavCompOpt{
+
+        /* border: 1px solid black;*/
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+         font-size: 1.75vmin;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-weight: bold;
+       
+         letter-spacing: 0.5vmin;
+         
+     } 
+     .brandNameText{
+        font-size: 2vmin;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color:  #FF4D27;
+        margin-top: 1vmin;
+        margin-left: 2.1vmin;
+        letter-spacing: 0.3vmin;
+    }     
+
+  
+}
+@media (min-width: 1080px) {
+    .internalNavCompOpt{
+
+        /* border: 1px solid black;*/
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+         font-size: 2.5vmin;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-weight: bold;
+       
+         letter-spacing: 0.5vmin;
+         
+     }      
+
+     .brandNameText{
+        font-size: 2.75vmin;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color:  #FF4D27;
+        margin-top: 1vmin;
+        letter-spacing: 0.5vmin;
+    }
+}
+
+
+.navOptText{
+
+    color:  #FF4D27;
+}
+
+.banner-icon{
+    display: flex;
+    
+    justify-content: center;
+}
+.icon-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerImgIcon{
+    max-height:100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+/* Banner Part CSS */
+
+/*.banner{
+    border: 1px solid black;
+    
+}*/
+.banner-image{
+    display: flex;
+    justify-content: center;
+}
+.banner-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerTextHead{
+    font-size: 7vmin;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color:  #FF4D27;
+    margin-top: 1vmin;
+    letter-spacing: 0.5vmin;
+}
+
+
+
+
+@media (max-width: 1079px) {
+    
+    .support-text{
+        font-size: 1.3vmin;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color:  #FF4D27;
+        margin-top: 1vmin;
+        letter-spacing: 0.5vmin;
+    }
+    .bannerSupportText{
+        display: flex;
+        justify-content: center;
+    }
+    .largeScreenArea{
+        display: none;
+    }
+    .smallScreenArea{
+        padding: 3vmin;
+        font-size: 3vmin;
+
+    }
+
+    .output-box{
+        height: 30vmin;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 0.1fr 1fr;
+        width: 70vmin;
+        color: black;
+        margin-top: 5vmin;
+    
+    }
+   
+    .button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vmin;
+    }
+     
+      .outputManager{
+          display: none;
+       }
+       
+    
+}
+
+
+@media (min-width: 1080px) {
+    
+    .support-text{
+        font-size: 2vmin;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color:  #FF4D27;
+        margin-top: 1vmin;
+        letter-spacing: 0.5vmin;
+    }
+    .bannerSupportText{
+        display: flex;
+        justify-content: center;
+    }
+    .smallScreenArea{
+        display: none;
+    }
+    .largeScreenArea{
+        padding: 3vmin;
+    
+    }
+    .output-box{
+        height: 25vmin;
+        width:  68vmin;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 0.1fr 1fr;
+      
+        color: black;
+        
+    }
+    
+    .button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5vmin;
+    }
+
+    .outputManager{
+        display: none;
+     }
+   
+}
+
+
+.work-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vmin ;
+}
+
+.SubmitBtn{
+    color: #FFFF;
+    background-color: #1875D2;
+    padding: 1vmin;
+    border-radius: 2vmin;
+    width: 15vmin;
+}
+
+
+/*.internalOutputBox{
+    border: 1px solid black;
+}*/
+.output-heading{
+    display: flex;
+    justify-content: center;
+}
+.word-box{
+    background-color: lightgrey;
+    margin-right: 1px darkgrey;
+   
+}
+
+.char-box{
+    background-color: lightgrey;
+    margin-right: 1px darkgrey;
+ 
+}
+
+ /* Output Area */
+ .outputManager{
+    margin-top: 15vmin;
+    /*display: none;*/
+   }
+   .output-area{
+    display: flex;
+    margin-top: 5vmin;
+    justify-content: center;
+    }
+    .outputHeadingText{
+       font-size: 5vmin;
+       color: #FF4D27;
+       font-weight: bold;
+       letter-spacing: 1.5vmin;
+    }
+    .WordResHeading{
+       color: black;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       display: flex;
+       justify-content: center;
+       margin-top: 3vmin;
+     
+    }
+    .headingTextWord{
+       display: flex;
+       margin-top: 3vmin;
+       justify-content: center;
+    }
+    
+.insideHeadingWord{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vmin;
+        letter-spacing: 0.5vmin;
+        font-weight: bold;
+}
+.CharResHeading{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vmin;
+ }
+
+.insideCharHeading{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vmin;
+    letter-spacing: 0.5vmin;
+    font-weight: bold;
+
+}
+
+.wordResDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vmin;
+}
+
+.wordResText{
+    font-size: 3.5vmin;
+}
+
+.charResDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vmin;
+}
+
+.charResText{
+    font-size: 3.5vmin;
+}
+
+/*Descr Area */
+
+.description-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vmin;
+
+}
+.descrText{
+    font-size: 5vmin;
+    color: #FF4D27;
+    font-weight: bold;
+    letter-spacing: 1vmin;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.QuestionHolder{
+    list-style: none;
+}
+.description-body{
+    margin-top: 7vmin;
+    margin-left: 10vmin;
+}
+
+.questionBunchText{
+    font-size: 3.75vmin;
+    font-weight: bold;
+    margin-top: 2.5vmin;
+    letter-spacing: 0.15vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.answerBunchText{
+    font-size: 3.5vmin;
+    letter-spacing: 0.45vmin;
+    margin-top: 2.5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Footer Part*/
+.linkBox{
+    margin-top: 0.1vmin;
+}
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ 
+}
+.links li{
+    display: inline;
+    margin-left: 3vmin;
+}
+.footer{
+
+    background-color: black;
+    color: white;
+    margin-top: 5vmin;
+
+}
+
+.footerTextBox{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Result back bnt(Res Btn)*/
+#resBtn{
+    margin-top: 3vmin;
+}
