@@ -1,4 +1,4 @@
-# WordCounterWebApp [<a href="https://aritrachakraborty2003.github.io/WordCounterWebApp/"> Link </a>]
+# WordCounterWebApp [<a href="https://aritrachakraborty2003.github.io/WordCounterWebApp/" target="_blank"> Link </a>]
 This is a Vanilla JS based Word and Character Counter Web App.
 <p>The tech Stack of the project is HTML,CSS and Vanilla JS
 Several internal concepts of  Advanced css and Js are used. The Website is <strong>100% responsive </strong>.It can count no. of words 
